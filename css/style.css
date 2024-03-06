@@ -1,0 +1,386 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow: auto;
+}
+
+#logo{
+    height: 40px;
+    width: auto;
+    position: absolute;
+    top: 30px;
+    left: 3%; 
+    cursor: pointer;
+}
+
+#orta{
+    margin-top: 0px;
+}
+
+#sağ{
+    margin-top: 0px;
+    position: absolute;
+    top: 4px;
+    left: 90%; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sağ a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#sağ a:hover{
+    color: rgb(0, 0, 0);
+}
+
+#sağ a:visited{
+    text-decoration: underline;
+    margin-right: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#menü{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+}
+
+nav{
+    font-size: 20px;
+    float: right;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+nav a:visited{
+    text-decoration: underline;
+    margin-right: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#çizgi{
+    color: #00c2e7;
+}
+
+#up{
+    color: #00c2e7;
+    border: 1px solid #00c2e7;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 12px 12px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.resim{
+    width: 100%;
+    height: auto;
+}
+
+.mavi{
+    color:#00c2e7 ;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+#icerik{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+.resim2{
+    width: 95%;
+    height: auto;
+    margin-left: 2.5%;
+}
+
+.mavi2{
+    color:#00c2e7 ;
+    text-align: center;
+    font-size: 150px;
+    font-weight: bold;
+    margin-bottom: -40px;
+}
+
+#icerik2{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-left: 545px;
+}
+
+.resim3{
+    margin-top: 50px;
+    width: 55%;
+    height: auto;
+    margin-left: 30%;
+}
+
+#bgcolor{
+    background-color: #000033;
+    width: 100%;
+    height: 2100px;
+    margin-top: -240px;
+}
+
+.mavi3{
+    color:#00c2e7 ;
+    font-size: 160px;
+    font-weight: bold;   
+    margin-left: 200px;
+    margin-top: -1650px;
+}
+
+#icerik3{
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    margin-left: 545px;
+    margin-top: -150px;
+}
+
+.resim4{
+    margin-top: 50px;
+    width: 55%;
+    height: auto;
+    margin-left: 15%;
+}
+
+#icerik4{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.resim5{
+    width: 100%;
+    height: auto;
+    margin-top:-10px;
+}
+
+.mavi4{
+    color:#00c2e7 ;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: -750px;
+}
+
+.icerik5{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: -140px;
+}
+
+.resim6{
+    width: 50%;
+    height: auto;
+    margin-left: 300px;
+    margin-top: 450px;
+    float:right;
+}
+
+#icerik6{
+    font-size: 28px;
+    color: black;
+    margin-top: 550px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.resim7{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+#icerik7{
+    font-size: 25px;
+    color: white;
+    margin-top: -700px;
+    text-align: center;
+}
+
+#bgcolor2{
+    background-color: #000033;
+    width: 100%;
+    height: 1000px;
+    margin-top: 0;
+}
+
+#alt_logo{
+    margin-top: 550px;
+    margin-left: 60px;
+    width: 10%;
+    height: auto;
+}
+
+#marka{
+    font-size: 50px;
+    color: white;
+    margin-top: -90px;
+    margin-left: 220px;
+}
+
+#foot{
+    margin-left: 50%;
+    margin-top: -450px;
+    width: 200px;
+    height: 275px;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    line-height: 2.3;
+}
+
+#foot2{
+    font-family: Calibri;
+    margin-left: 75%;
+    margin-top: -130px;
+    width: 200px;
+    height: 250px;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    line-height: 2;
+}
+
+#cizgi{
+    width: 100%;
+    height: 0.1px;
+    background-color: #00c2e7;
+    margin-top: -100px;
+}
+
+#foot3{
+    font-family: Calibri;
+    font-size: 17px;
+    margin-left: 4%;
+    margin-top: 50px;
+    color: white;
+    text-align: left;
+}
+
+#foot4{
+    font-family: Calibri;
+    font-size: 17px;
+    margin-left: 75%;
+    margin-top: -38px;
+    color: white;
+    text-align: left;
+}
+
+#foot5{
+    font-family: Calibri;
+    font-size: 25px;
+    margin-left: 85%;
+    margin-top: -42px;
+    color: white;
+    text-align: left;
+    letter-spacing:7;
+}
+
+.footlink a:link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.footlink a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.footlink a:visited{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+#buton4{
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #000033;
+    color: white;
+    cursor: pointer;
+}
+
+#buton5{
+    width: 330px;
+    height: 50px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#buton6{
+    width: 330px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.üççizgi{
+    cursor: pointer;
+}
+
+.cerceve{
+    width:100%;
+    overflow:hidden;
+}
+
+.galeri{
+    position:relative;
+    width:300%;
+    left:0%;
+    animation: 18s slayt infinite;
+}
+
+.galeri img{
+    width:33.33%;
+    float:left;
+    height: 680px;
+}
+
+@keyframes slayt{
+    0%{left:0%}
+    23.33%{left:0%}
+    33.33%{left:-100%}
+    56.66%{left:-100%}
+    66.66%{left:-200%}
+    95%{left:-200%}
+}
